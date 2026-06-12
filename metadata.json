@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Y.B. Renovations",
+  "description": "A business portfolio website for a professional home renovation and remodeling business in Israel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
