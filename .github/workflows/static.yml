@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # הסרנו את שורת ה-cache שגרמה לשגיאה
 
       - name: Install dependencies
         run: npm install
@@ -48,7 +48,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # משגרים רק את תיקיית dist שנוצרה בבנייה
           path: './dist'
 
       - name: Deploy to GitHub Pages
