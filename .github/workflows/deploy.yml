@@ -34,10 +34,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # הסרנו את שורת ה-cache שגרמה לשגיאה
 
       - name: Install dependencies
-        run: npm install
+        # הוספנו את הדגל שמכריח את גיטהאב להתקין למרות סכסוך הגרסאות
+        run: npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
