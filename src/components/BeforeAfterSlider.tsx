@@ -90,8 +90,8 @@ export default function BeforeAfterSlider() {
   const projects = [
     {
       title: "פרויקט שיפוץ שלנו",
-      beforeImg: "/project1-before.jpg",
-      afterImg: "/project1-after.jpg",
+      beforeImg: "./project1-before.jpg",
+      afterImg: "./project1-after.jpg",
       beforeAlt: "לפני השיפוץ",
       afterAlt: "אחרי השיפוץ"
     },

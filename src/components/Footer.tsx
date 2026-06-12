@@ -19,7 +19,7 @@ export default function Footer() {
             className="space-y-6 lg:col-span-1"
           >
              <div className="flex justify-start items-center gap-2 relative">
-              <img src="/logo.png" alt="ב.י שיפוצים - לוגו" className="h-10 w-auto object-contain brightness-0 invert opacity-90" />
+              <img src="./logo.png" alt="ב.י שיפוצים - לוגו" className="h-10 w-auto object-contain brightness-0 invert opacity-90" />
               <span className="text-xl font-bold text-white mr-2">
                 ב.י שיפוצים
               </span>

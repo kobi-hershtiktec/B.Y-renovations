@@ -30,7 +30,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-1 flex justify-start items-center z-50 relative">
             <div className="flex flex-col md:flex-row items-center md:gap-2 mt-1 md:mt-0">
-              <img src="/logo.png" alt="ב.י שיפוצים - לוגו" className="h-10 md:h-12 w-auto object-contain" />
+              <img src="./logo.png" alt="ב.י שיפוצים - לוגו" className="h-10 md:h-12 w-auto object-contain" />
               <span className="text-[11px] md:text-xl font-bold text-white whitespace-nowrap leading-none mt-1 md:mt-0">
                 ב.י שיפוצים
               </span>

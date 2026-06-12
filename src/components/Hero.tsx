@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-primary-dark/80 mix-blend-multiply z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-primary-dark to-transparent z-10"></div>
         <img 
-          src="/bg-01.png" 
+          src="./bg-01.png" 
           alt="Renovation site" 
           className="w-full h-full object-cover object-top"
         />
