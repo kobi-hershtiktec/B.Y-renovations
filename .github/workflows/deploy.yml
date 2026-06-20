@@ -29,10 +29,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # הסרנו את ה-cache כדי שלא יחפש קבצי נעילה חסרים
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install # שינוי ל-install רגיל כדי שלא ייכשל בלי קובץ lock
 
       - name: Build
         run: npm run build
