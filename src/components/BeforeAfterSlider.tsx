@@ -78,10 +78,10 @@ function SingleSlider({ beforeImg, afterImg, beforeAlt, afterAlt, title }: Slide
         </div>
 
         <div className="absolute bottom-4 right-4 bg-primary-dark/80 backdrop-blur-sm text-white px-4 py-2 rounded-lg font-bold shadow opacity-80 group-hover:opacity-100 transition-opacity pointer-events-none">
-          לפני
+          אחרי
         </div>
         <div className="absolute bottom-4 left-4 bg-primary-dark/80 backdrop-blur-sm text-white px-4 py-2 rounded-lg font-bold shadow opacity-80 group-hover:opacity-100 transition-opacity pointer-events-none">
-          אחרי
+          לפני
         </div>
       </div>
     </div>
@@ -91,21 +91,21 @@ function SingleSlider({ beforeImg, afterImg, beforeAlt, afterAlt, title }: Slide
 export default function BeforeAfterSlider() {
   const projects = [
     {
-      title: "פרויקט שיפוץ קומפלט",
+      title: "פרויקט עיצוב ושיפוץ מטבח",
       beforeImg: "./project1-before.jpg",
       afterImg: "./project1-after.jpg",
       beforeAlt: "לפני השיפוץ - תמונה 1",
       afterAlt: "אחרי השיפוץ - תמונה 1"
     },
     {
-      title: "פרויקט עיצוב ושיפוץ מטבח",
+      title: "פרויקט שיפוץ שירותים מקלחת",
       beforeImg: "./project2-before.jpg",
       afterImg: "./project2-after.jpg",
       beforeAlt: "מטבח ישן לפני שיפוץ",
       afterAlt: "מטבח חדיש ומודרני אחרי שיפוץ"
     },
     {
-      title: "פרויקט שדרוג חדר רחצה",
+      title: "פרויקט שיפוץ שירותים מקלחת",
       beforeImg: "./project3-before.jpg",
       afterImg: "./project3-after.jpg",
       beforeAlt: "מקלחת ישנה לפני השיפוץ",
