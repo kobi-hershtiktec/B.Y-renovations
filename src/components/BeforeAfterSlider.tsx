@@ -48,6 +48,7 @@ function SingleSlider({ beforeImg, afterImg, beforeAlt, afterAlt, title }: Slide
             alt={afterAlt} 
             className="w-full h-full object-cover select-none"
             draggable="false"
+            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -60,6 +61,7 @@ function SingleSlider({ beforeImg, afterImg, beforeAlt, afterAlt, title }: Slide
             alt={beforeAlt} 
             className="w-full h-full object-cover select-none"
             draggable="false"
+            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -99,15 +101,15 @@ export default function BeforeAfterSlider() {
       title: "פרויקט עיצוב ושיפוץ מטבח",
       beforeImg: "./project2-before.jpg",
       afterImg: "./project2-after.jpg",
-      beforeAlt: "לפני השיפוץ - תמונה 2",
-      afterAlt: "אחרי השיפוץ - תמונה 2"
+      beforeAlt: "מטבח ישן לפני שיפוץ",
+      afterAlt: "מטבח חדיש ומודרני אחרי שיפוץ"
     },
     {
       title: "פרויקט שדרוג חדר רחצה",
       beforeImg: "./project3-before.jpg",
       afterImg: "./project3-after.jpg",
-      beforeAlt: "לפני השיפוץ - תמונה 3",
-      afterAlt: "אחרי השיפוץ - תמונה 3"
+      beforeAlt: "מקלחת ישנה לפני השיפוץ",
+      afterAlt: "חדר רחצה יוקרתי אחרי השיפוץ"
     },
     {
       title: "עיצוב ושיפוץ סלון",
