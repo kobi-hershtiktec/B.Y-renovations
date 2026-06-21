@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const categories = ["הכל", "מטבחים", "חדרי רחצה", "סלון", "חיצוני"];
+const categories = ["הכל", "מטבחים", "חדרי רחצה"];
 
 const initialImages = [
-  { id: 1, src: "https://images.unsplash.com/photo-1556910103-1c02745a8728?q=80&w=2070&auto=format&fit=crop", category: "מטבחים" },
-  { id: 2, src: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop", category: "סלון" },
-  { id: 3, src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop", category: "חדרי רחצה" },
-  { id: 4, src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop", category: "חיצוני" },
-  { id: 5, src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop", category: "סלון" },
-  { id: 6, src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop", category: "מטבחים" },
+  { id: 7, src: "./project1-after.jpg", category: "מטבחים" },
+  { id: 8, src: "./project2-after.jpg", category: "חדרי רחצה" },
+  { id: 9, src: "./project3-after.jpg", category: "חדרי רחצה" },
 ];
 
 export default function FilteredGallery() {
