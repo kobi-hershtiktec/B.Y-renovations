@@ -68,8 +68,16 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 text-sm text-gray-500"
         >
-           <p>© {new Date().getFullYear()} כל הזכויות שמורות לב.י שיפוצים.</p>
-           
+           <div className="flex flex-col items-center md:items-start gap-1">
+             <p>© {new Date().getFullYear()} כל הזכויות שמורות לב.י שיפוצים.</p>
+             <p className="text-xs text-gray-600">
+               בניית אתר:{" "}
+               <a href="https://hershtiktec.com/" target="_blank" rel="noopener" className="text-gray-500 hover:text-accent transition-colors">
+                 HERSHTIKTEC
+               </a>
+             </p>
+           </div>
+
            <button 
             onClick={scrollToTop}
             className="mt-6 md:mt-0 bg-white/5 hover:bg-white/10 p-3 rounded-full transition-colors flex items-center gap-2 group"
